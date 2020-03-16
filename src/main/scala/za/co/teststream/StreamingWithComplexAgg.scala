@@ -38,6 +38,7 @@ object StreamingWithComplexAgg {
       .option("maxFilesPerTrigger", 1)
       .load("src/main/resources")
       .withColumn("run_timestamp", current_timestamp)
+      // with complex aggregation
       .select(manyTestCols : _*)
 
     readSampleRS

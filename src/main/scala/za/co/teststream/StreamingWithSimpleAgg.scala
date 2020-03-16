@@ -34,7 +34,7 @@ object StreamingWithSimpleAgg {
       .schema(sampleDFSchema)
       .option("maxFilesPerTrigger", 1)
       .load("src/main/resources")
-      /// Simple Simple and aggregation
+      /// Simple map and aggregation
       .selectExpr("ch_seq")
       .as[String].map(x => (x, x.length))
       .groupBy("_1")
