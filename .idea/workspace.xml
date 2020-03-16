@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c29a9904-e1b7-4daa-ad34-3be67192142b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Z6jKb3403lWTSCYalBcHYIQvh0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\f5338875\IdeaProjects\SimpleStreaming\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\f5338875\IdeaProjects\SimpleStreaming\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StreamingWithComplexAgg (1)">
+    <configuration name="SimpleStreaming" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="za.co.teststream.SimpleStreaming.StreamingWithSimpleAgg" />
+      <module name="SimpleStreaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.test.SimpleStreaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamingWithComplexAgg (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="za.co.teststream.StreamingWithComplexAgg" />
+      <module name="SimpleStreaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.teststream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamingWithComplexAgg" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="za.co.teststream.StreamingWithComplexAgg.StreamingWithComplexAgg" />
+      <module name="SimpleStreaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.teststream.StreamingWithComplexAgg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StreamingWithComplexAgg (1)" />
+        <item itemvalue="Application.StreamingWithComplexAgg" />
+        <item itemvalue="Application.SimpleStreaming" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c29a9904-e1b7-4daa-ad34-3be67192142b" name="Default Changelist" comment="" />
+      <created>1584166374907</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584166374907</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1584365398269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584365398269" />
+    <state x="373" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584290230516">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="373" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1584290230516" />
+    <state width="1493" height="643" key="GridCell.Tab.0.bottom" timestamp="1584366400467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="643" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584366400467" />
+    <state width="1493" height="643" key="GridCell.Tab.0.center" timestamp="1584366400467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="643" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584366400467" />
+    <state width="1493" height="643" key="GridCell.Tab.0.left" timestamp="1584366400467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="643" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584366400467" />
+    <state width="1493" height="643" key="GridCell.Tab.0.right" timestamp="1584366400467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="643" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584366400467" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1584257756741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1584257756741" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1584353010090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584353010090" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584351029784">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584351029784" />
+  </component>
+</project>
