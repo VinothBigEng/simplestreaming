@@ -15,6 +15,7 @@ object StreamingWithSimpleAgg {
       .appName("Test Spark Streaming")
       .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
       .config("spark.sql.shuffle.partitions", 4)
+      .config("spark.sql.codegen.wholeStage", "false")
       .master("local[*]")
       .getOrCreate()
 

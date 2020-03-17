@@ -1,7 +1,7 @@
 package za.co.teststream
 
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.{SparkSession, functions}
 import org.apache.spark.sql.functions.{col, current_timestamp, expr}
 import za.co.teststream.createColStrings._
 
@@ -9,7 +9,7 @@ object StreamingWithComplexAgg {
 
   def main(args: Array[String]) {
 
-    Logger.getLogger("org").setLevel(Level.ERROR)
+    Logger.getLogger("org").setLevel(Level.DEBUG)
 
     val spark = SparkSession
       .builder()
@@ -32,6 +32,9 @@ object StreamingWithComplexAgg {
     val stringofCase = createComplexColStrings(400, 100 )
     val manyTestCols = List(col("ch_seq") ,col("run_timestamp")) ::: stringofCase._1.map(expr(_))
 
+
+//    val groupByWindowCol = functions.window($"run_timestamp" , "")
+
     val readSampleRS = spark.readStream
       .format("json")
       .schema(sampleDFSchema)
@@ -40,6 +43,11 @@ object StreamingWithComplexAgg {
       .withColumn("run_timestamp", current_timestamp)
       // with complex aggregation
       .select(manyTestCols : _*)
+      // Agg columns with watermark
+      .withWatermark("run_timestamp", "500 milliseconds")
+      .groupBy("ch_seq" ,"run_timestamp")
+      .agg(functions.collect_list(functions.col( "ch_seq")))
+
 
     readSampleRS
       .writeStream
